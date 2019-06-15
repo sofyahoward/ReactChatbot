@@ -1,0 +1,15 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+server
+internals
+stats.json
+appveyor.yml
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.travis.yml
+.lgtm

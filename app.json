@@ -1,0 +1,20 @@
+{
+  "name": "Pet Chatbot Sample",
+  "description": "A sample chatbot built with React",
+  "keywords": [
+    "node",
+    "react",
+    "webpack"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v106"
+    }
+  ],
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "NPMs env",
+      "generator": false
+    },
+  },
+}
